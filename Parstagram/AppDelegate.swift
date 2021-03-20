@@ -4,16 +4,26 @@
 //
 //  Created by Nina on 3/20/21.
 //
-
+// Installing Parse pods
 import UIKit
+import Parse
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let parseConfig = ParseClientConfiguration {
+                $0.applicationId = "8jF3Fn7OUYv2szZIohbHZ3FsPSRMsfrGYYq9h3uO"
+                $0.clientKey = "lP5qbe4R1eknF1nvtRyGLcFRJGXhVHlxw0yq4XQC"
+                $0.server = "https://parseapi.back4app.com"
+        }
+        Parse.initialize(with: parseConfig)
+
+
         return true
     }
 
