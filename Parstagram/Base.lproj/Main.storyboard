@@ -137,7 +137,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="captionLabel" destination="0ms-Fa-0vZ" id="anV-VS-uT7"/>
-                                            <outlet property="photoView" destination="hcc-nu-C0r" id="RW7-wi-gg7"/>
+                                            <outlet property="photoView" destination="y4w-Il-QEg" id="yQ6-fi-176"/>
                                             <outlet property="usernameLabel" destination="Lpr-jM-0LP" id="MLC-2D-Ihp"/>
                                         </connections>
                                     </tableViewCell>
