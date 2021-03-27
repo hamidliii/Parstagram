@@ -3,7 +3,7 @@
 
 This is an Instagram clone with a custom Parse backend that allows a user to post photos, view a global photos feed, and add comments!
 
-Time spent: 4 hours spent in total
+Time spent: 12 hours spent in total
 
 ## User Stories
 
@@ -23,7 +23,7 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='hhttp://g.recordit.co/fpq0bjNQ29.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/fpq0bjNQ29.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 # Parstagram - Part I
 
 This is an Instagram clone with a custom Parse backend that allows a user to post photos and view a global photos feed.
