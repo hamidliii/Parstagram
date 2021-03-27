@@ -8,8 +8,10 @@
 import UIKit
 import Parse
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    var window: UIWindow?
 
 
     
@@ -21,8 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 $0.clientKey = "lP5qbe4R1eknF1nvtRyGLcFRJGXhVHlxw0yq4XQC"
                 $0.server = "https://parseapi.back4app.com"
         }
+        
         Parse.initialize(with: parseConfig)
-
 
         return true
     }
